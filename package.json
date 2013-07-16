@@ -3,6 +3,10 @@
         "name": "Sean Wilkinson",
         "email": "sean@mathbiol.org"
     },
+    "bugs": {
+        "url": "https://github.com/qmachine/qm-nodejs/issues",
+        "mail": ""
+    },
     "dependencies": {
         "corser": ">= 1.2.0",
         "quanah": ">= 0.1.6"
@@ -14,6 +18,10 @@
         "npm": ">= 1.1.2"
     },
     "homepage": "https://www.qmachine.org/",
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "https://raw.github.com/qmachine/qm-nodejs/master/LICENSE"
+    }],
     "main": "lib/main.js",
     "name": "qm",
     "optionalDependencies": {
