@@ -1,0 +1,16 @@
+#-  Travis CI configuration file
+
+#-  .travis.yml ~~
+#                                                       ~~ (c) SRW, 15 Jul 2013
+#                                                   ~~ last updated 15 Jul 2013
+
+before_install:
+    -   sudo apt-get update -qq
+    -   sudo apt-get install -qq curl git imagemagick libsqlite3-dev make
+
+node_js:
+    -   "0.10"
+
+script: "make web-service"
+
+#-  vim:set syntax=yaml:

@@ -1,0 +1,42 @@
+/*- CSS style sheet */
+
+/*- style.css ~~
+ *
+ *  This file declares some of the presentation-layer settings for the browser
+ *  client's graphical user interface (GUI) -- the webpage, "index.html". This
+ *  file will be concatenated and/or minified along with Twitter Bootstrap as
+ *  part of "style-min.css", which means that some or all of these settings may
+ *  be overridden by Twitter Bootstrap's defaults. Consequently, I have removed
+ *  some of my original rules simply to reduce the file size.
+ *
+ *  NOTE: I truly hate "slashstar" comments because I have never found a way to
+ *  write them that doesn't make me want to claw my eyes out. If you have any
+ *  ideas, let me know :-)
+ *
+ *                                                      ~~ (c) SRW, 29 Oct 2012
+ *                                                  ~~ last updated 13 Jun 2013
+ */
+
+@media all {
+ /* These rules will be applied for to the page for all devices, but they can
+  * be overridden by other device-specific settings I may have specified. */
+    body {
+     /* This extends the container all the way to the bottom of the topbar. */
+        padding-top: 60px;
+    }
+    html {
+     /* This snippet makes text look nicer (source: http://goo.gl/fr85e) for
+      * light text on dark backgrounds (http://goo.gl/SrFQ7). I'm not using
+      * anything like that right now, but I just like it better ... argh. */
+        -webkit-font-smoothing: antialiased;
+    }
+    noscript {
+        color: red;
+        font-size: 200%;
+    }
+    .centered {
+        text-align: center;
+    }
+}
+
+/*- vim:set syntax=css: */
