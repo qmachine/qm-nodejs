@@ -1,12 +1,9 @@
-README
-======
+# QMachine [![NPM version](https://badge.fury.io/js/qm.png)](http://badge.fury.io/js/qm)
 
 This repository contains the `qm` module for the
 [Node Package Manager (npm)](https://npmjs.org/). The module implements both
 the API server and web server of [QMachine (QM)](https://www.qmachine.org)
 using [Node.js](https://npmjs.org/).
-
-[![NPM version](https://badge.fury.io/js/qm.png)](http://badge.fury.io/js/qm)
 
 Install
 -------
