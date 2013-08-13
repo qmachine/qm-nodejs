@@ -1,13 +1,13 @@
 # qm [![NPM version](https://badge.fury.io/js/qm.png)](http://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
 
-The `qm` module for the [Node Package Manager](https://npmjs.org/) (NPM)
-implements both the API server and web server of
-[QMachine](https://www.qmachine.org) (QM) using [Node.js](http://nodejs.org/).
+The `qm` module for [Node.js](http://nodejs.org) implements both the API server
+and the web server components of [QMachine](https://www.qmachine.org) (QM).
 
 Install
 -------
 
-To install the most recent release with NPM, run:
+To install the latest release using [Node Package Manager](https://npmjs.org)
+(NPM), run:
 
     npm install qm
 
