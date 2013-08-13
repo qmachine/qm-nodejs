@@ -1,4 +1,4 @@
-# QMachine [![NPM version](https://badge.fury.io/js/qm.png)](http://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
+# qm [![NPM version](https://badge.fury.io/js/qm.png)](http://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
 
 The `qm` module for the [Node Package Manager (npm)](https://npmjs.org/)
 implements both the API server and web server of
