@@ -11,7 +11,7 @@
         "corser": ">= 1.2.0",
         "quanah": ">= 0.1.6"
     },
-    "description": "The World's Most Relaxed Supercomputer",
+    "description": "A platform for World Wide Computing",
     "devDependencies": {},
     "engines": {
         "node": ">= 0.8.0",
@@ -22,6 +22,12 @@
         "type": "Apache 2.0",
         "url": "https://raw.github.com/qmachine/qm-nodejs/master/LICENSE"
     }],
+    "keywords": [
+        "crowdsourcing",
+        "distributed computing",
+        "volunteer computing",
+        "World Wide Computing"
+    ],
     "main": "lib/main.js",
     "name": "qm",
     "optionalDependencies": {
