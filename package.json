@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "corser": ">= 1.2.0",
-        "quanah": ">= 0.1.6"
+        "quanah": ">= 0.2.0"
     },
     "description": "A platform for World Wide Computing",
     "devDependencies": {},
@@ -43,5 +43,5 @@
         "url": "https://github.com/qmachine/qm-nodejs.git"
     },
     "scripts": {},
-    "version": "1.1.0"
+    "version": "1.1.1"
 }
