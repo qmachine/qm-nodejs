@@ -2,7 +2,7 @@
 
 //- service.js ~~
 //                                                      ~~ (c) SRW, 26 Sep 2012
-//                                                  ~~ last updated 15 May 2013
+//                                                  ~~ last updated 01 Dec 2013
 
 (function () {
     'use strict';
@@ -30,7 +30,8 @@
         },
         trafficlog_storage: {
             couch:          'http://127.0.0.1:5984/traffic',
-            mongo:          'mongodb://localhost:27017/qm'
+            mongo:          'mongodb://localhost:27017/qm',
+            postgres:       'postgres://localhost:5432/' + process.env.USER
         },
         worker_procs:       require('os').cpus().length
     };
