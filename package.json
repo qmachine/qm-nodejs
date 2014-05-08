@@ -20,7 +20,7 @@
     },
     "homepage": "https://www.qmachine.org/",
     "licenses": [{
-        "type": "Apache 2.0",
+        "type": "Apache-2.0",
         "url": "https://raw.github.com/qmachine/qm-nodejs/master/LICENSE"
     }],
     "keywords": [
