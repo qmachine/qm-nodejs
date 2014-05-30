@@ -5,7 +5,7 @@
 //  Example usage: $ node examples/update-katamari.js k1.json k2.json
 //
 //                                                      ~~ (c) SRW, 29 Sep 2013
-//                                                  ~~ last updated 29 Sep 2013
+//                                                  ~~ last updated 29 May 2014
 
 (function () {
     'use strict';
@@ -29,20 +29,24 @@
         x = require(xname);
         y = require(yname);
         for (key in y) {
-            if (y.hasOwnProperty(key) && x.hasOwnProperty(key)) {
-                flag = ((x[key].base64 === y[key].base64) &&
-                        (x[key].mime_type === y[key].mime_type));
-                if (flag === true) {
-                    tx = new Date(x[key].last_modified);
-                    ty = new Date(y[key].last_modified);
-                    if (tx < ty) {
-                        console.log('Using original', key, '...');
-                        y[key] = x[key];
+            if (y.hasOwnProperty(key)) {
+                if (x.hasOwnProperty(key)) {
+                    flag = ((x[key].base64 === y[key].base64) &&
+                            (x[key].mime_type === y[key].mime_type));
+                    if (flag === true) {
+                        tx = new Date(x[key].last_modified);
+                        ty = new Date(y[key].last_modified);
+                        if (tx < ty) {
+                            console.log('Using original', key, '...');
+                            y[key] = x[key];
+                        } else {
+                            console.log('Same', key, 'already ...');
+                        }
                     } else {
-                        console.log('Same', key, 'already ...');
+                        console.log('Different', key, '...');
                     }
                 } else {
-                    console.log('Different', key, '...');
+                    console.log('Adding ', key, '...');
                 }
             }
         }
