@@ -1,42 +1,40 @@
 {
     "author": {
         "name": "Sean Wilkinson",
-        "email": "sean@mathbiol.org"
+        "email": "sean@mathbiol.org",
+        "url": "http://seanwilkinson.info"
     },
-    "bugs": {
-        "url": "https://github.com/qmachine/qm-nodejs/issues",
-        "mail": ""
-    },
+    "bugs": "https://github.com/qmachine/qm-nodejs/issues",
     "contributors": [],
     "dependencies": {
-        "corser": ">= 1.2.0",
-        "quanah": ">= 0.2.0"
+        "corser": ">=1.2.0",
+        "quanah": ">=0.2.0"
     },
     "description": "A platform for World Wide Computing",
     "devDependencies": {},
     "engines": {
-        "node": ">= 0.8.0",
-        "npm": ">= 1.1.2"
+        "node": ">=0.8.0",
+        "npm": ">=1.1.2"
     },
     "homepage": "https://www.qmachine.org/",
-    "licenses": [{
-        "type": "Apache-2.0",
-        "url": "https://raw.github.com/qmachine/qm-nodejs/master/LICENSE"
-    }],
     "keywords": [
         "crowdsourcing",
         "distributed computing",
         "volunteer computing",
         "World Wide Computing"
     ],
+    "licenses": [{
+        "type": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/qmachine/qm-nodejs/master/LICENSE"
+    }],
     "main": "lib/main.js",
     "name": "qm",
     "optionalDependencies": {
-        "hiredis": ">= 0.1.14",
-        "mongodb": ">= 1.2.0",
-        "pg": ">= 1.0.0",
-        "redis": ">= 0.8.2",
-        "sqlite3": ">= 2.1.5"
+        "hiredis": ">=0.1.14",
+        "mongodb": ">=1.2.0",
+        "pg": ">=1.0.0",
+        "redis": ">=0.8.2",
+        "sqlite3": ">=2.1.5"
     },
     "private": false,
     "repository": {
