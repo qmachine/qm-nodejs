@@ -6,8 +6,8 @@ and the web server components of [QMachine](https://www.qmachine.org) (QM).
 Install
 -------
 
-To install the latest release using [Node Package Manager](https://npmjs.org)
-(NPM), run:
+To install the latest release using
+[Node Package Manager](https://www.npmjs.org) (NPM), run:
 
     npm install qm
 
