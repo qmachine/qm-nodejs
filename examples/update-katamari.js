@@ -5,7 +5,7 @@
 //  Example usage: $ node examples/update-katamari.js k1.json k2.json
 //
 //                                                      ~~ (c) SRW, 29 Sep 2013
-//                                                  ~~ last updated 29 May 2014
+//                                                  ~~ last updated 13 Jul 2014
 
 (function () {
     'use strict';
@@ -46,7 +46,7 @@
                         console.log('Different', key, '...');
                     }
                 } else {
-                    console.log('Adding ', key, '...');
+                    console.log('Adding', key, '...');
                 }
             }
         }
