@@ -27,7 +27,7 @@
         "type": "Apache-2.0",
         "url": "https://raw.githubusercontent.com/qmachine/qm-nodejs/master/LICENSE"
     }],
-    "main": "lib/main.js",
+    "main": "lib/qm.js",
     "name": "qm",
     "optionalDependencies": {
         "hiredis": ">=0.1.14",
