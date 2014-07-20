@@ -10,7 +10,7 @@ Install
 To install the latest release using
 [Node Package Manager](https://www.npmjs.org) (NPM), run:
 
-    npm install qm
+    $ npm install qm
 
 Live Examples
 -------------
