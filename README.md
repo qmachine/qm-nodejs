@@ -1,8 +1,7 @@
 # qm
 
-
 The `qm` module for [Node.js](http://nodejs.org) implements both the API server
-and the web server components of [QMachine](https://www.qmachine.org) (QM).
+and the web server components of [QMachine](https://www.qmachine.org).
 
 Install
 -------
