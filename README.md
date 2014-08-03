@@ -1,20 +1,8 @@
 # qm
 
 The `qm` module for [Node.js](http://nodejs.org) implements both the API server
-and the web server components of [QMachine](https://www.qmachine.org).
-
-Install
--------
-
-To install the latest release using
-[Node Package Manager](https://www.npmjs.org) (NPM), run:
-
-    $ npm install qm
-
-Live Examples
--------------
-
-<a href="https://runnable.com/qmachine" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
+and the web server components of [QMachine](https://www.qmachine.org). For more
+information, see the [manual](https://docs.qmachine.org/en/latest/nodejs.html).
 
 ===
 
