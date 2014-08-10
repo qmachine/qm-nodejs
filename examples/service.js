@@ -2,7 +2,7 @@
 
 //- service.js ~~
 //                                                      ~~ (c) SRW, 26 Sep 2012
-//                                                  ~~ last updated 01 Dec 2013
+//                                                  ~~ last updated 10 Aug 2014
 
 (function () {
     'use strict';
@@ -43,7 +43,7 @@
     qm.launch_service({
         enable_api_server:  true,
         enable_CORS:        true,
-        enable_www_server:  true,
+        enable_web_server:  true,
         persistent_storage: {
             avar_ttl:       60,
             mongo:          examples.persistent_storage.mongo
