@@ -6,14 +6,18 @@
 //  QM project's build process :-)
 //
 //                                                      ~~ (c) SRW, 17 Dec 2012
-//                                                  ~~ last updated 21 Dec 2012
+//                                                  ~~ last updated 12 Aug 2014
 
 (function () {
     'use strict';
 
  // Pragmas
 
+    /*jshint maxparams: 1, quotmark: single, strict: true */
+
     /*jslint indent: 4, maxlen: 80, node: true */
+
+    /*properties argv, length, roll_up */
 
  // Declarations
 

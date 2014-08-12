@@ -5,14 +5,21 @@
 //  Example usage: $ node examples/update-katamari.js k1.json k2.json
 //
 //                                                      ~~ (c) SRW, 29 Sep 2013
-//                                                  ~~ last updated 13 Jul 2014
+//                                                  ~~ last updated 12 Aug 2014
 
 (function () {
     'use strict';
 
  // Pragmas
 
+    /*jshint maxparams: 2, quotmark: single, strict: true */
+
     /*jslint indent: 4, maxlen: 80, node: true */
+
+    /*properties
+        argv, base64, error, exit, hasOwnProperty, last_modified, length, log,
+        mime_type, stringify, writeFile
+    */
 
  // Declarations
 
