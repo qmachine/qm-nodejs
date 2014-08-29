@@ -2,7 +2,7 @@
 
 //- service.js ~~
 //                                                      ~~ (c) SRW, 26 Sep 2012
-//                                                  ~~ last updated 12 Aug 2014
+//                                                  ~~ last updated 28 Aug 2014
 
 (function () {
     'use strict';
@@ -14,7 +14,7 @@
     /*jslint indent: 4, maxlen: 80, node: true */
 
     /*properties
-        avar_ttl, couch, cpus, enable_api_server, enable_CORS,
+        avar_ttl, couch, cpus, enable_api_server, enable_cors,
         enable_web_server, env, gc_interval, launch_service, length,
         max_http_sockets, mongo, persistent_storage, postgres, redis, sqlite,
         trafficlog_storage, USER, worker_procs
@@ -51,7 +51,7 @@
 
     qm.launch_service({
         enable_api_server:  true,
-        enable_CORS:        true,
+        enable_cors:        true,
         enable_web_server:  false,
         persistent_storage: {
             avar_ttl:       60,
