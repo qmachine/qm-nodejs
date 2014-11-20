@@ -6,7 +6,7 @@
 //  QM project's build process :-)
 //
 //                                                      ~~ (c) SRW, 17 Dec 2012
-//                                                  ~~ last updated 12 Aug 2014
+//                                                  ~~ last updated 20 Nov 2014
 
 (function () {
     'use strict';
@@ -25,7 +25,7 @@
 
  // Definitions
 
-    directory = (process.argv.length > 2) ? process.argv[2] : 'public_html';
+    directory = (process.argv.length > 2) ? process.argv[2] : 'public';
 
     json_file = (process.argv.length > 3) ? process.argv[3] : 'katamari.json';
 
