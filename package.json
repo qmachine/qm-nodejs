@@ -10,7 +10,7 @@
         "corser": ">=1.2.0",
         "mongodb": ">=1.2.0",
         "pg": ">=1.0.0",
-        "quanah": ">=0.2.3",
+        "quanah": ">=0.3.0",
         "redis": ">=0.8.2",
         "sqlite3": ">=2.1.5"
     },
@@ -44,5 +44,5 @@
         "url": "https://github.com/qmachine/qm-nodejs.git"
     },
     "scripts": {},
-    "version": "1.1.16"
+    "version": "1.2.0"
 }
