@@ -11,13 +11,7 @@
 #   control -- always execute your commits manually!
 #
 #                                                       ~~ (c) SRW, 31 Oct 2011
-#                                                   ~~ last updated 12 Feb 2013
-
-#-  Temporary project directories
-build/
-cache/
-icons/
-var/
+#                                                   ~~ last updated 02 Dec 2014
 
 #-  CouchApp configuration files -- these may contain passwords!
 .couchapprc
@@ -26,18 +20,8 @@ var/
 .d8_history
 .v8_history
 
-#-  Mercurial repository itself (if present)
-.hg/
-
 #-  Node.js modules
 node_modules/
-
-#-  Vim files (taken from http://git.io/qmQqxA)
-.*.s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-*~
 
 #-  OS generated files (adapted from http://git.io/fBFWrw)
 ._*
@@ -49,5 +33,12 @@ Session.vim
 ehthumbs.db
 Icon?
 Thumbs.db
+
+#-  Vim files (taken from http://git.io/qmQqxA)
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
 
 #-  vim:set syntax=gitconfig:
