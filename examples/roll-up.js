@@ -3,10 +3,10 @@
 //- roll-up.js ~~
 //
 //  NOTE: This file isn't just an example -- it is also used as part of the
-//  QM project's build process :-)
+//  QMachine project's unit tests :-)
 //
 //                                                      ~~ (c) SRW, 17 Dec 2012
-//                                                  ~~ last updated 20 Nov 2014
+//                                                  ~~ last updated 21 Jan 2015
 
 (function () {
     'use strict';
