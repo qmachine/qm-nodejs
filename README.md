@@ -11,5 +11,9 @@ For more information, please see the
 
 ===
 
-[![NPM version](https://badge.fury.io/js/qm.svg)](https://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs) [![Dependency Status](https://david-dm.org/qmachine/qm-nodejs.svg)](https://david-dm.org/qmachine/qm-nodejs)
+[![NPM version](https://badge.fury.io/js/qm.svg)](https://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
+
+<!--
+    [![Dependency Status](https://david-dm.org/qmachine/qm-nodejs.svg)](https://david-dm.org/qmachine/qm-nodejs)
+-->
 
