@@ -8,7 +8,7 @@
     "contributors": [],
     "dependencies": {
         "corser": ">=1.2.0",
-        "mongodb": "1.4.x",
+        "mongodb": ">=1.4.18 <2.0.0",
         "pg": ">=1.0.0",
         "quanah": ">=0.3.0",
         "redis": ">=0.8.2",
