@@ -11,9 +11,12 @@ For more information, please see the
 
 ===
 
-[![NPM version](https://badge.fury.io/js/qm.svg)](https://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
-
 <!--
-    [![Dependency Status](https://david-dm.org/qmachine/qm-nodejs.svg)](https://david-dm.org/qmachine/qm-nodejs)
+[![NPM version](https://badge.fury.io/js/qm.svg)](https://badge.fury.io/js/qm) [![Dependency Status](https://gemnasium.com/qmachine/qm-nodejs.png)](https://gemnasium.com/qmachine/qm-nodejs)
 -->
+
+| Purpose | Status |
+|:-------:|:------:|
+| Dependencies | [![Dependency Status](https://david-dm.org/qmachine/qm-nodejs.svg)](https://david-dm.org/qmachine/qm-nodejs) <br> [![devDependency Status](https://david-dm.org/qmachine/qm-nodejs/dev-status.svg)](https://david-dm.org/qmachine/qm-nodejs#info=devDependencies) <br> [![optionalDependency Status](https://david-dm.org/qmachine/qm-nodejs/optional-status.svg)](https://david-dm.org/qmachine/qm-nodejs#info=optionalDependencies) |
+| Version badges | [![NPM version](https://badge.fury.io/js/qm.svg)](http://badge.fury.io/js/qm) |
 
